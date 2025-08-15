@@ -1,16 +1,3 @@
-# Find Missing Person using AI
-![Issues](https://img.shields.io/github/issues/gaganmanku96/Finding-missing-person-using-AI) ![Stars](https://img.shields.io/github/stars/gaganmanku96/Finding-missing-person-using-AI?style=social)
-![CodeRabbit Reviews](https://img.shields.io/coderabbit/prs/github/gaganmanku96/Finding-missing-person-using-AI?utm_source=oss&utm_medium=github&utm_campaign=gaganmanku96%2FFinding-missing-person-using-AI&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
-
-
-![Streamlit](https://img.shields.io/badge/Streamlit-000000?style=for-the-badge&logo=streamlit&logoColor=white&height=20)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-000000?style=for-the-badge&logo=mediapipe&logoColor=white&height=20)
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white&height=20)
-![SQLite](https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=white&height=20)
-
-### Endorse me at LinkedIn if this project was helpful. [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/gaganmanku96/)
-
-
 Hundreds of people (especially children go missing every day) in India. There are various <b>NGO's and Govt Initiatives</b> to help with it. This project tries to implement an  existing/new way to help.
 
 ### News Articles
@@ -62,25 +49,6 @@ Thousands of people, especially children, go missing every day in India. Despite
 - **Lightweight & Portable**  
   All data is stored in SQLite; ready-to-run with minimal setup.
 
-## How to Run
-
-1. Clone the repository and install dependencies:
-   ```bash
-   git clone https://github.com/gaganmanku96/Finding-missing-person-using-AI.git
-   cd Finding-missing-person-using-AI
-   pip install -r requirements.txt
-   ```
-2. Run the main web app:
-   ```bash
-   streamlit run Home.py
-   ```
-3. To use the mobile/public submission app:
-   ```bash
-   streamlit run mobile_app.py
-   ```
-
-- The database will auto-create on first run (SQLite, file: `sqlite_database.db`).
-- Images are stored in the `resources/` folder.
 
 ### Use Cases
 
@@ -89,5 +57,4 @@ Thousands of people, especially children, go missing every day in India. Despite
 - Crowdsourced submissions from the general public via mobile or web.
 
 
-### Vote of Thanks
-- Thanks to the [MediaPipe](https://mediapipe.dev/) team for their open-source face mesh solution, now powering this project!
+
